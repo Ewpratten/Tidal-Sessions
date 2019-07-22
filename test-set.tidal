@@ -1,0 +1,10 @@
+d1 $ up "[12 0]/2" # sound "bass1" # gain "1.15"
+d2 $ jux(rev) $ up "[4 4]/4" # sound "sax:2/4" # gain "0.9"
+d3 $ sound "<sax:20/8 sax:21/8 sax:19/4 sax18/2>"
+d4 $ sound "click*2" # n (irand 10)
+d4 $ sound $ samples "click*8" $ run $ irand $ 20
+d5 $ sound "sine" # n (irand 6)
+
+d5 $ silence
+
+hush
